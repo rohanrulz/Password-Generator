@@ -1,8 +1,9 @@
 // Assignment code here
 
-
+//function to generate a password
 function generatePassword() {
   
+  //list of variables:
   var length;
   var numeric;
   var special;
@@ -16,7 +17,7 @@ function generatePassword() {
   let lowercaselist = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   
   
-
+  //asks for user input when the "generate password" button is clicked
   length = prompt("how much length of characters do you want for your password? Choose between 8 and 128");
 
   if (!length) {
@@ -127,21 +128,7 @@ function generatePassword() {
   var newps = newpassword.join("");
     return newps;
 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
