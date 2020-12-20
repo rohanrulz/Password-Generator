@@ -10,3 +10,6 @@ length do you want for your password.
 
 
 link to deployed application - https://rohanrulz.github.io/Password-Generator/
+
+
+[<img src="./Develop/screenshot.JPG" width="1000">](https://rohanrulz.github.io/Password-Generator/)
